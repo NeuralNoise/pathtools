@@ -1,0 +1,11 @@
+Source: python-pathtools
+Section: free
+Priority: extra
+Maintainer: Jesús García Sáez <blaxter@zentyal.com>
+Build-Depends: cdbs, debhelper (>= 7.0.50~), python-support, python (>= 2.7)
+Standards-Version: 3.8.4
+
+Package: python-pathtools
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Path utilities for Python

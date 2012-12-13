@@ -67,6 +67,9 @@ clean:
 		-or -iname ".DS_Store" \
 		\) -delete
 
+deb:
+	dpkg-buildpackage -A -uc -us
+
 distclean: clean
 	@$(RM) \
 		dist/ \

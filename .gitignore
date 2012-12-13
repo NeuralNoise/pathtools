@@ -29,3 +29,7 @@ MANIFEST
 .coverage
 .pythoscope/
 htmlcov/
+
+# For debian packaging
+debian/files
+debian/python-*
